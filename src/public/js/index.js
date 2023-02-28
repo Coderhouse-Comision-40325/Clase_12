@@ -1,7 +1,10 @@
 const socket = io()
 
 Swal.fire({
-    title:"Hola, Coders",
-    text:"Alerta básica de Sweet Alert",
-    icon:"success"
+    title: 'Hola usuario',
+    text: 'Bienvenido, Ingresa tu Usuario',
+    input: 'text'
+}).then(response => {
+    console.log(response);
+    user = response.value;
 })
