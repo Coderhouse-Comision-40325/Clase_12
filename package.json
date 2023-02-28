@@ -1,0 +1,25 @@
+{
+  "name": "clase_12",
+  "version": "1.0.0",
+  "description": "Ejercicios de la clase 12",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coderhouse-Comision-40325/Clase_12.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coderhouse-Comision-40325/Clase_12/issues"
+  },
+  "homepage": "https://github.com/Coderhouse-Comision-40325/Clase_12#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "socket.io": "^4.6.1"
+  }
+}
